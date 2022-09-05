@@ -7,10 +7,13 @@
     <title>Document</title>
 </head>
 <body>
+    //Consigna 1
     <h1>Hola Mundo</h1>
-    <?php 
+    //Consigna 2
+    <?php
     echo $mensaje ="Hola Mundo <br>";
     ?>
+    //Consigna 3
     <?php
     $entero1 = 10;
     $entero2 = 2;
@@ -21,6 +24,7 @@
     echo "La division entera es = " . $entero1 / $entero2 ."<br>";
     echo "El resto es = " . $entero1 % $entero2 ."<br>";
     ?>
+    //Consigna 4
     <?php
     $celsius = 20;
     $fahrenheit = ($celsius* 9/5) + 32;
@@ -32,6 +36,7 @@
     echo "<br> El rectangulo de lado 18cm y 12cm tiene: <br>";
     echo "Un perimetro igual a " .($lado1*2 + $lado2*2)."cm y su area es igual a " .($lado1* $lado2) ."cm².<br>";
     ?>
+    //Consigna 5
     <?php
     $radio = 30;
     define ("PI",3.141);
