@@ -1,0 +1,21 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategrey;
+}   
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(245, 245, 245,0.1);
+}
+input{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
