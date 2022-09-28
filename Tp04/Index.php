@@ -39,9 +39,9 @@ echo "<hr>";
 //Quinta consigna
 echo "<h3>5. Mostrar la suma de los números de 1 a 20
 </h3>";
-$suma = 1;
-for ($i=2; $i <=20 ; $i++) { 
-    $suma = $suma + $i;
+$suma = 0;
+for ($i=1; $i <=20 ; $i++) { 
+    $suma += $i;
     echo $suma. "<br>";
 }
 echo "<hr>";
@@ -50,11 +50,9 @@ echo "<hr>";
 echo "<h3>6. Mostrar la suma de números pares de 1 a 20.
 </h3>";
 $suma = 0;
-for ($i=1; $i <=20 ; $i++) { 
-    $suma =$suma + $i;
-    if (($suma%2)==0) {
-        echo $suma. "<br>";
-    }
+for ($i=2; $i <=20 ; $i+=2) { 
+    $suma += $i;
+     echo $suma. "<br>";
     
 }
 echo "<hr>";
